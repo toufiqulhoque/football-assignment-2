@@ -161,7 +161,7 @@ body{
     }
     .player{
         padding: 20px 20px 20px 20px;
-        margin: 1% 20% 0 0;   
+        margin: 1% 0 0 0;   
        
     }
      /*------------- 
@@ -205,6 +205,9 @@ body{
         flex-direction: column;
     
         }
+        .banner-info h1{
+            font-size: 30px;
+          }
         .banner-image img{
             margin-top: 50px;
             width: 429px;
