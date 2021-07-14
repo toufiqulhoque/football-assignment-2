@@ -162,14 +162,16 @@ body{
     /*------------- 
        Using Media 
     ---------------*/
+    
+
+@media only screen and (max-width: 668px) {
     html, body{
         overflow-x: hidden;
     }
-
-@media only screen and (max-width: 668px) {
     .container{
         width: 100%;
     }
+    
     /* Banner */
     .banner {
       display: flex;
@@ -222,9 +224,7 @@ body{
      /*------------- 
           Highlight 
     ---------------*/
-    html, body{
-        overflow-x: hidden;
-    }
+    
 
     .highlight-info h1{
         font-size:30px;
@@ -261,6 +261,9 @@ body{
   }
   /* For Tablet devices */
   @media only screen and (min-width: 669px) and (max-width: 992px){
+    html, body{
+        overflow-x: hidden;
+    }
       .container{
           width: 100%;
       }
