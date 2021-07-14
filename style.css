@@ -195,6 +195,26 @@ body{
         margin: 1% 0 0 0;   
        
     }
+    /*------------
+          News
+     -------------*/
+     .all-news{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+     }
+     .news img{
+         width: 243px;
+     }
+     
+     .all-news{
+         margin-bottom: 20%;
+         padding-left:  10%;
+         
+     }
+    
+
+
+
      /*------------- 
           Highlight 
     ---------------*/
@@ -205,6 +225,7 @@ body{
     .highlight{
         display: flex;
         flex-direction: column;
+        padding: 4%;
         
     }
     .highlight-img img{
@@ -212,10 +233,16 @@ body{
         height: 248px;
         margin-top: 50px;
     }
-    /* More */
+    /* ---------------
+            More
+    ---------------- */
     .more-detail{
         display: flex;
         flex-direction: column;
+    }
+    .more{
+        padding: 0 4%;
+        margin-top: 10% ;
     }
     /*------------- 
           Footer
@@ -253,6 +280,21 @@ body{
         
         margin: 0 1%;
     }
+    /*------------
+          News
+     -------------*/
+     .all-news{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+     }
+     .news img{
+         width: 400px;
+     }
+     
+     .all-news{
+         margin-bottom: 20%;
+         
+     }
         /*------------- 
           Highlight 
     ---------------*/
@@ -262,6 +304,7 @@ body{
     .highlight{
         display: flex;
         flex-direction: column;
+        padding: 4%;
         
     }
     .highlight-img img{
@@ -272,7 +315,11 @@ body{
         /* More */
     .more-detail{
         display: flex;
-        flex-direction: column;
+        flex-direction: column;   
+    }
+    .more{
+        padding: 0 4%;
+        margin-top: 10% ;
     }
 
   }
