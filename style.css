@@ -248,7 +248,7 @@ body{
           Footer
     ---------------*/
     .football img{
-        width: 300px;
+        width: 250px;
         height: 79px;           
     }      
   }
@@ -321,5 +321,8 @@ body{
         padding: 0 4%;
         margin-top: 10% ;
     }
-
+    .football img{
+        width: 350px;
+        height: 79px;           
+    } 
   }
