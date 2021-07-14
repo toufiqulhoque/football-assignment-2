@@ -67,6 +67,36 @@ body{
     transform: scale(1.07); 
 }
 
+/*----------------
+    All News
+ --------------*/
+ .news-info{
+     padding-left: 20%;
+ }
+ .all-news{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 3%;
+     padding: 2% 20%; 
+ }
+ .news{
+    border-radius: 20px; 
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15); 
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 25px;
+ }
+ .all-news img{
+     width: 330px;
+     height: 230px;
+     border-radius: 20px; 
+
+ }
+ .news a{
+     text-decoration: none;
+     color: #E02C6D;
+     
+ }
     /*------------- 
         Highlight
     ---------------*/
@@ -101,6 +131,7 @@ body{
     grid-gap: 50px;
     padding: 0 20%;
     margin-bottom: 5%;
+    
 }
 .more-detail{
     display: flex;
