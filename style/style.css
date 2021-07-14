@@ -4,6 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 }
      /*------------- 
     Full Banner Part 
@@ -161,6 +162,9 @@ body{
     /*------------- 
        Using Media 
     ---------------*/
+    html, body{
+        overflow-x: hidden;
+    }
 
 @media only screen and (max-width: 668px) {
     .container{
@@ -218,7 +222,10 @@ body{
      /*------------- 
           Highlight 
     ---------------*/
-
+    html, body{
+        overflow-x: hidden;
+    }
+    
     .highlight-info h1{
         font-size:30px;
     }
